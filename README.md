@@ -1351,7 +1351,7 @@ Sent to un-like the world.
 | `5`   | ![Zombieeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/422.png) | Zombie |
 | `6`   | ![Teameffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/420.png) | Team |
 | `7`   | ![LowGravityeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/453.png) | Low Gravity |
-| `8`   | Fire | fire |
+| `8`   | ![FireEffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/fire.png) | fire |
 | `9`   | ![MultiJumpeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/461.png) | Multi Jump |
 | `10`  | ![Gravityeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/1517.png) | Gravity Effect |
 
