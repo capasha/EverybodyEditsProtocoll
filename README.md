@@ -56,6 +56,7 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
   - [minimapEnabled](#rm-minimapEnabled)
   - [mod](#rm-mod)
   - [muted](#rm-muted)
+  - [pm](#rm-pm)
   - [ps](#rm-ps)
   - [psi](#rm-psi)
   - [pt](#rm-pt)
@@ -112,6 +113,7 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
   - [mod](#sm-mod)
   - [name](#sm-name)
   - [pressKey](#sm-pressKey)
+  - [pm](#sm-pm)
   - [ps](#sm-ps)
   - [rejectAddToCrew](#sm-rejectAddToCrew)
   - [requestAddToCrew](#sm-requestAddToCrew)
@@ -674,6 +676,14 @@ Occurs when you muted or un-muted a player.
 | `0` | `Integer` | Player Id | The player's id.
 | `1` | `Boolean` | Muted     | Value indicating whether the player is now muted.
 
+### <a id="rm-pm">"pm"</a>
+Occurs when a player send a private message
+
+| Id  | Type      | Name        | Description
+| --- | ----      | ----        | -----------
+| `0` | `Integer` | Player Id   | The player's id.
+| `1` | `String`  | Message     | The message from you or sent to you
+| `2` | `Boolean` | Incoming    | Incoming means the message is sent to you (true), or from you (false)
 
 ### <a id="rm-ps">"ps"</a>
 Occurs when a player touches a switch.
@@ -1149,6 +1159,14 @@ Sent to activate a key.
 | `0` | `Integer` | X    | The x coordinate of the key's position.
 | `1` | `Integer` | Y    | The y coordinate of the key's position.
 | `2` | `String`  | Key  | The name of the key. *See [Keys](#model-keys).*
+
+### <a id="sm-pm">"pm"</a>
+Sending a private message to the player
+
+| Id  | Type      | Name        | Description
+| --- | ----      | ----        | -----------
+| `0` | `Int`     | Player ID   | The players ID.
+| `1` | `String`  | Message     | Message that get sent to the player.
 
 ### <a id="sm-ps">"ps"</a>
 Sent to change the switch state.
