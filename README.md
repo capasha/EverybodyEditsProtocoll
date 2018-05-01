@@ -1375,3 +1375,14 @@ Sent to un-like the world.
 | `4`   | Cyan
 | `5`   | Magenta
 | `6`   | Yellow
+
+### <a id="model-npcs">Teams</a>
+
+| Pic  | Value | Team Color
+| ---- | ----- | ----------
+| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)  |`Smile`   | `Smile`
+| `1`   | `Sad`
+| `2`   | `Old`
+| `3`   | `Angry`
+| `4`   | `Slime`
+| `5`   | `Robot`
