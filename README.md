@@ -291,14 +291,14 @@ Occurs when placing a NPC in the world.
 
 | Id  | Type     | Name         | Description
 | --- | ----     | ----         | -----------
-| `0` | `UInt`   | X            | The x coordinate of the block's position.
-| `1` | `UInt`   | Y            | The y coordinate of the block's position.
-| `2` | `UInt`   | Block Id     | The block's id.
+| `0` | `UInt`   | X            | The x coordinate of the NPC position.
+| `1` | `UInt`   | Y            | The y coordinate of the NPC position.
+| `2` | `UInt`   | NPC Block Id | The NPC Block Id. *See [NPC's ids](#model-npcid).
 | `3` | `String` | NPC Name     | The name of the NPC.
 | `4` | `String` | NPC Text     | The first text from the NPC
 | `5` | `String` | NPC Text     | The second text from the NPC
 | `6` | `String` | NPC Text     | The third text from the NPC
-| `7` | `UInt`   | Player Id    | The id of the player which placed this block.
+| `7` | `UInt`   | Player Id    | The id of the player which placed this NPC.
 
 ### <a id="rm-br">"br"</a>
 Occurs when a morphable block is placed in the world.
