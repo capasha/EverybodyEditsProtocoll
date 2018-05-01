@@ -17,6 +17,7 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
   - [badgeChange](#rm-badgeChange)
   - [banned](#rm-banned)
   - [bc](#rm-bc)
+  - [bn](#rm-bn)
   - [br](#rm-br)
   - [bs](#rm-bs)
   - [c](#rm-c)
@@ -147,7 +148,7 @@ ___
 # <a id="game-information">Game Information</a>
 ```
 GameID = everybody-edits-su9rn58o40itdbnw69plyw
-Version = 228
+Version = 230
 ```
 
 *NOTE: the game ID is required to log into PlayerIO to send requests.*
@@ -284,6 +285,21 @@ Occurs when a block with a number value is placed in the world.
 | `2` | `UInt` | Block Id     | The block's id.
 | `3` | `UInt` | Number Value | The number value.
 | `4` | `UInt` | Player Id    | The id of the player which placed this block.
+
+### <a id="rm-bn">"bn"</a>
+Occurs when placing a NPC in the world.
+
+| Id  | Type     | Name         | Description
+| --- | ----     | ----         | -----------
+| `0` | `UInt`   | X            | The x coordinate of the block's position.
+| `1` | `UInt`   | Y            | The y coordinate of the block's position.
+| `2` | `UInt`   | Block Id     | The block's id.
+| `3` | `UInt`   | Number Value | The number value.
+| `4` | `String` | NPC Name     | The name of the NPC.
+| `5` | `String` | NPC Text     | The first text from the NPC
+| `6` | `String` | NPC Text     | The second text from the NPC
+| `7` | `String` | NPC Text     | The third text from the NPC
+| `8` | `UInt`   | Player Id    | The id of the player which placed this block.
 
 ### <a id="rm-br">"br"</a>
 Occurs when a morphable block is placed in the world.
