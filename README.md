@@ -1343,26 +1343,26 @@ Sent to un-like the world.
 ### <a id="model-effects">Effects</a>
 | Value | Image | Effect
 | ----- | ------ | ------ 
-| `0`   | ![Jumpeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/417.png) | Jump |
-| `1`   | ![Flyeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/418.png) | Fly |
-| `2`   | ![Speedeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/419.png) | Speed |
-| `3`   | ![Protectioneffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/420.png) | Protection |
-| `4`   | ![Curseeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/421.png) | Curse |
-| `5`   | ![Zombieeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/422.png) | Zombie |
-| `6`   | ![Teameffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/420.png) | Team |
-| `7`   | ![LowGravityeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/453.png) | Low Gravity |
-| `8`   | ![FireEffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/fire.png) | fire |
-| `9`   | ![MultiJumpeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/461.png) | Multi Jump |
-| `10`  | ![Gravityeffect](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/1517.png) | Gravity Effect |
+| `0`   | ![Jumpeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/417.png) | Jump |
+| `1`   | ![Flyeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/418.png) | Fly |
+| `2`   | ![Speedeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/419.png) | Speed |
+| `3`   | ![Protectioneffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/420.png) | Protection |
+| `4`   | ![Curseeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/421.png) | Curse |
+| `5`   | ![Zombieeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/422.png) | Zombie |
+| `6`   | ![Teameffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/420.png) | Team |
+| `7`   | ![LowGravityeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/453.png) | Low Gravity |
+| `8`   | ![FireEffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/fire.png) | fire |
+| `9`   | ![MultiJumpeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/461.png) | Multi Jump |
+| `10`  | ![Gravityeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1517.png) | Gravity Effect |
 
 ### <a id="model-keys">Key names</a>
 
-- ![Keyred](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/6.png) red
-- ![Keygreen](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/7.png) green
-- ![Keyblue](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/8.png) blue
-- ![Keycyan](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/408.png) cyan
-- ![Keymagenta](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/409.png) magenta
-- ![Keyyellow](https://github.com/capasha/EverybodyEditsProtocol/blob/master/images/410.png) yellow
+- ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png) red
+- ![Keygreen](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/7.png) green
+- ![Keyblue](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/8.png) blue
+- ![Keycyan](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/408.png) cyan
+- ![Keymagenta](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/409.png) magenta
+- ![Keyyellow](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/410.png) yellow
 
 ### <a id="model-teams">Teams</a>
 
