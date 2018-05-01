@@ -1378,7 +1378,7 @@ Sent to un-like the world.
 
 ### <a id="model-npcs">Teams</a>
 
-| Pic  | Value | Team Color
+| NPC Picture  | NPC Name | NPC Block ID
 | ---- | ----- | ----------
 | ![smile](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1550.png)  | `Smile`   | `1550`
 | ![sad](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1551.png)   | `Sad` | `1551`
