@@ -1380,9 +1380,9 @@ Sent to un-like the world.
 
 | Pic  | Value | Team Color
 | ---- | ----- | ----------
-| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)  | `Smile`   | `1550`
-| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)   | `Sad` | `1551`
-| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)   | `Old` | `1552`
-| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)   | `Angry` | `1553`
-| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)   | `Slime` | `1554`
-| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)   | `Robot` | `1555`
+| ![smile](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1550.png)  | `Smile`   | `1550`
+| ![sad](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1551.png)   | `Sad` | `1551`
+| ![old](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1552.png)   | `Old` | `1552`
+| ![angry](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1553.png)   | `Angry` | `1553`
+| ![slime](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1554.png)   | `Slime` | `1554`
+| ![robot](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1555.png)   | `Robot` | `1555`
