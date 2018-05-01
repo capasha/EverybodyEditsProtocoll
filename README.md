@@ -1380,9 +1380,9 @@ Sent to un-like the world.
 
 | Pic  | Value | Team Color
 | ---- | ----- | ----------
-| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)  |`Smile`   | `Smile`
-| `1`   | `Sad`
-| `2`   | `Old`
-| `3`   | `Angry`
-| `4`   | `Slime`
-| `5`   | `Robot`
+| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)  | `Smile`   | `1550`
+| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)   | `Sad` | `1551`
+| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)   | `Old` | `1552`
+| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)   | `Angry` | `1553`
+| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)   | `Slime` | `1554`
+| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png)   | `Robot` | `1555`
