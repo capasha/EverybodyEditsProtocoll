@@ -976,6 +976,15 @@ Additional arguments:
 | `0` | `String`  | Text      | The text.
 | `1` | `Integer` | Sign Type | The sign type.
 
+- For NPC blocks:
+
+| Id  | Type      | Name           | Description
+| --- | ----      | ----           | -----------
+| `0` | `String`  | Name           | The NPC Name
+| `1` | `String`  | First Message  | The first NPC message
+| `2` | `String`  | Second Message | The second NPC message
+| `0` | `String`  | Third Message  | The third NPC message
+
 ### <a id="sm-c">"c"</a>
 Sent to collect a coin.
 
