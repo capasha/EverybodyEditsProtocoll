@@ -1376,7 +1376,7 @@ Sent to un-like the world.
 | `5`   | Magenta
 | `6`   | Yellow
 
-### <a id="model-npcs">NPC</a>
+### <a id="model-npcid">NPC</a>
 
 | NPC Picture  | NPC Name | NPC Block ID
 | ---- | ----- | ----------
