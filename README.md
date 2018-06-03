@@ -1383,13 +1383,14 @@ Sent to un-like the world.
 | `10`  | ![Gravityeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1517.png) | Gravity Effect |
 
 ### <a id="model-keys">Key names</a>
-
-- ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png) red
-- ![Keygreen](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/7.png) green
-- ![Keyblue](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/8.png) blue
-- ![Keycyan](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/408.png) cyan
-- ![Keymagenta](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/409.png) magenta
-- ![Keyyellow](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/410.png) yellow
+| Image | Value
+| ----- | ----------
+| ![Keyred](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/6.png) |  red
+| ![Keygreen](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/7.png) |  green
+| ![Keyblue](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/8.png) |  blue
+| ![Keycyan](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/408.png) |  cyan
+| ![Keymagenta](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/409.png) |  magenta
+| ![Keyyellow](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/410.png) |  yellow
 
 ### <a id="model-teams">Teams</a>
 
