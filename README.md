@@ -1407,11 +1407,11 @@ Sent to un-like the world.
 
 | NPC Picture  | NPC Name | NPC Block ID
 | ---- | ----- | ----------
-| ![smile](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcSmile.png)  | `Smile`   | `1550`
+| ![smile](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcHappy.png)  | `Smile`   | `1550`
 | ![sad](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcSad.png)   | `Sad` | `1551`
 | ![old](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcOld.png)   | `Old` | `1552`
 | ![angry](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcAngry.png)   | `Angry` | `1553`
-| ![slime](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcSlime.png)   | `Slime` | `1554`
+| ![slime](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcSlimey.png)   | `Slime` | `1554`
 | ![robot](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcRobot.png)   | `Robot` | `1555`
 | ![knight](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcKnight.png)   | `Knight` | `1556`
 | ![meh](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcMeh.png)   | `Meh` | `1557`
