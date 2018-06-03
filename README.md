@@ -1407,9 +1407,14 @@ Sent to un-like the world.
 
 | NPC Picture  | NPC Name | NPC Block ID
 | ---- | ----- | ----------
-| ![smile](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1550.png)  | `Smile`   | `1550`
-| ![sad](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1551.png)   | `Sad` | `1551`
-| ![old](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1552.png)   | `Old` | `1552`
-| ![angry](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1553.png)   | `Angry` | `1553`
-| ![slime](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1554.png)   | `Slime` | `1554`
-| ![robot](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1555.png)   | `Robot` | `1555`
+| ![smile](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcSmile.png)  | `Smile`   | `1550`
+| ![sad](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcSad.png)   | `Sad` | `1551`
+| ![old](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcOld.png)   | `Old` | `1552`
+| ![angry](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcAngry.png)   | `Angry` | `1553`
+| ![slime](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcSlime.png)   | `Slime` | `1554`
+| ![robot](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcRobot.png)   | `Robot` | `1555`
+| ![knight](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcKnight.png)   | `Knight` | `1556`
+| ![meh](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcMeh.png)   | `Meh` | `1557`
+| ![cow](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcCow.png)   | `Cow` | `1558`
+| ![frog](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcFrog.png)   | `Frog` | `1559`
+| ![bruce](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcBruce.png)   | `Bruce` | `1570`
