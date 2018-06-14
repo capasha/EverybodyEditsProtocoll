@@ -1394,15 +1394,15 @@ Sent to un-like the world.
 
 ### <a id="model-teams">Teams</a>
 
-| Value | Team Color
-| ----- | ----------
-| `0`   | None
-| `1`   | Red
-| `2`   | Blue
-| `3`   | Green
-| `4`   | Cyan
-| `5`   | Magenta
-| `6`   | Yellow
+| Image | Value | Team Color
+| ----- | ----- | ----------
+| ![TeamNone](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/TeamNone.png) | `0`   | None
+| ![TeamRed](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/TeamRed.png) | `1`   | Red
+| ![TeamBlue](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/TeamBlue.png) | `2`   | Blue
+| ![TeamGreen](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/TeamGreen.png) | `3`   | Green
+| ![TeamCyan](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/TeamCyan.png) | `4`   | Cyan
+| ![TeamMagenta](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/TeamMagenta.png) | `5`   | Magenta
+| ![TeamYellow](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/TeamYellow.png) | `6`   | Yellow
 
 ### <a id="model-npcid">NPC</a>
 
