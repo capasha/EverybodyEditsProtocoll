@@ -1336,30 +1336,30 @@ Sent to un-like the world.
 | Image | Abbreviation | Name
 | ----- | ------------ | ----
 | ![adc](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/adc.png)| adc          | Advent Calendar
-| avd          | Adventure League
-| bst          | Bittersweet
-| clr          | Colorful
-| crm          | Christmas
-| end          | Endurance
-| ffs          | Fractured Fingers
-| grv          | Relativity
-| hln          | Halloween 2
-| hlw          | Halloween
-| jny          | Journey
-| lcd          | Looks Can Deceive
-| nsg          | Nostalgia
-| pp1          | Puzzle Pack 1
-| pp2          | Puzzle Pack 2
-| ppf          | Frustration
-| rns          | Ancient Ruins
-| smr          | Summer
-| spr          | Spring
-| stm          | Story Time
-| tnr          | Tunnel Rats
-| ttr          | Tutorials
-| vg1          | Video Game 1
-| vg2          | Video Game 2
-| wtr          | Wintery Wonders
+| ![avd](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/avd.png)| avd          | Adventure League
+| ![bst](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/bst.png)| bst          | Bittersweet
+| ![clr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/clr.png)| clr          | Colorful
+| ![crm](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/crm.png)| crm          | Christmas
+| ![end](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/end.png)| end          | Endurance
+| ![ffs](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/ffs.png)| ffs          | Fractured Fingers
+| ![grv](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/grv.png)| grv          | Relativity
+| ![hln](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/hln.png)| hln          | Halloween 2
+| ![hlw](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/hlw.png)| hlw          | Halloween
+| ![jny](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/jny.png)| jny          | Journey
+| ![lcd](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/lcd.png)| lcd          | Looks Can Deceive
+| ![nsg](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/nsg.png)| nsg          | Nostalgia
+| ![pp1](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/pp1.png)| pp1          | Puzzle Pack 1
+| ![pp2](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/pp2.png)| pp2          | Puzzle Pack 2
+| ![ppf](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/ppf.png)| ppf          | Frustration
+| ![rns](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/rns.png)| rns          | Ancient Ruins
+| ![smr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/smr.png)| smr          | Summer
+| ![spr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/spr.png)| spr          | Spring
+| ![stm](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/stm.png)| stm          | Story Time
+| ![tnr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/tnr.png)| tnr          | Tunnel Rats
+| ![ttr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/ttr.png)| ttr          | Tutorials
+| ![vg1](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/vg1.png)| vg1          | Video Game 1
+| ![vg2](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/vg2.png)| vg2          | Video Game 2
+| ![wtr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/wtr.png)| wtr          | Wintery Wonders
 
 
 ### <a id="model-campaign-status">Campaign Status</a>
