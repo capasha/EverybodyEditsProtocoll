@@ -1336,7 +1336,7 @@ Sent to un-like the world.
 | Image | Abbreviation | Name
 | ----- | ------------ | ----
 | ![adc](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/adc.png)| adc          | Advent Calendar
-| ![avd](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/avd.png)| avd          | Adventure League
+| ![adv](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/adv.png)| adv          | Adventure League
 | ![bst](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/bst.png)| bst          | Bittersweet
 | ![clr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/clr.png)| clr          | Colorful
 | ![crm](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/crm.png)| crm          | Christmas
