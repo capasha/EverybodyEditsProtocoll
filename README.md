@@ -1333,20 +1333,32 @@ Sent to un-like the world.
 
 ### <a id="model-badges">Badges</a>
 
-| Abbreviation | Name
-| ------------ | ----
+| Image | Abbreviation | Name
+| ----- | ------------ | ----
+| ![adc](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/adc.png)| adc          | Advent Calendar
 | avd          | Adventure League
+| bst          | Bittersweet
 | clr          | Colorful
+| crm          | Christmas
 | end          | Endurance
 | ffs          | Fractured Fingers
+| grv          | Relativity
+| hln          | Halloween 2
 | hlw          | Halloween
+| jny          | Journey
 | lcd          | Looks Can Deceive
+| nsg          | Nostalgia
 | pp1          | Puzzle Pack 1
+| pp2          | Puzzle Pack 2
+| ppf          | Frustration
 | rns          | Ancient Ruins
+| smr          | Summer
 | spr          | Spring
 | stm          | Story Time
 | tnr          | Tunnel Rats
 | ttr          | Tutorials
+| vg1          | Video Game 1
+| vg2          | Video Game 2
 | wtr          | Wintery Wonders
 
 
