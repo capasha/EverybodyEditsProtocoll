@@ -186,7 +186,7 @@ Occurs when someone joins the world.
 | `4`  | `Double`    | X                  | The x coordinate of the player's position.
 | `5`  | `Double`    | Y                  | The y coordinate of the player's position.
 | `6`  | `Boolean`   | God Mode           | Value indicating whether the player is in god mode.
-| `7`  | `Boolean`   | Admin Mode         | Value indicating whether the player is in administrator mode.
+| `7`  | `Boolean`   | Moderator Mode         | Value indicating whether the player is in moderator mode.
 | `8`  | `Boolean`   | Can Chat           | Value indicating whether the player is allowed to chat.
 | `9`  | `Integer`   | Gold Coins         | The amount of player's gold coins.
 | `10` | `Integer`   | Blue Coins         | The amount of player's blue coins.
@@ -194,17 +194,15 @@ Occurs when someone joins the world.
 | `12` | `Boolean`   | Is Friend          | Value indicating whether the player is a friend.
 | `13` | `Boolean`   | Gold Membership    | Value indicating whether the player has gold membership.
 | `14` | `Boolean`   | Gold Smiley Border | Value indicating whether the player is wearing gold smiley border.
-| `15` | `Boolean`   | Moderator Mode     | Value indicating whether the player is in moderator mode.
-| `16` | `Integer`   | Team               | The player's team id.                                                                     *See [Teams](#model-teams).*
-| `17` | `Integer`   | Aura Shape         | The player's aura shape id.
-| `18` | `Integer`   | Aura Color         | The player's aura color id.
-| `19` | `Integer`   | Chat Color         | The player's chat color.
-| `20` | `String`    | Badge              | The player's badge id.                                                                    *See [Badges](#model-badges).*
-| `21` | `Boolean`   | Crew Member        | Value indicating whether the player is a member of the crew to which belongs this world.
-| `22` | `ByteArray` | Purple Switches    | Byte array of purple switch states.
-| `23` | `Integer`   | Set Staff Aura     | Set staff aura i guess?
-| `24` | `Boolean`   | Can Edit           | Value indicating whether the player can edit in this world.
-| `25` | `Boolean`   | Can Toggle Godmode | Value indicating whether the player can toggle godmode or not.
+| `15` | `Integer`   | Team               | The player's team id.                                                                     *See [Teams](#model-teams).*
+| `16` | `Integer`   | Aura Shape         | The player's aura shape id.
+| `17` | `Integer`   | Aura Color         | The player's aura color id.
+| `18` | `Integer`   | Chat Color         | The player's chat color.
+| `29` | `String`    | Badge              | The player's badge id.                                                                    *See [Badges](#model-badges).*
+| `20` | `Boolean`   | Crew Member        | Value indicating whether the player is a member of the crew to which belongs this world.
+| `21` | `ByteArray` | Purple Switches    | Byte array of purple switch states.
+| `22` | `Boolean`   | Can Edit           | Value indicating whether the player can edit in this world.
+| `23` | `Boolean`   | Can Toggle Godmode | Value indicating whether the player can toggle godmode or not.
 
 > **NOTE:** This can only be received by the world owner.
 
@@ -215,14 +213,6 @@ Occurs when a world was successfully added to a crew.
 | --- | ----     | ----      | -----------
 | `0` | `String` | Crew Id   | The id of the crew to which the world was added.
 | `1` | `String` | Crew Name | The name of the crew to which the world was added.
-
-### <a id="rm-admin">"admin"</a>
-Occurs when a player toggles administrator mode.
-
-| Id  | Type      | Name                     | Description
-| --- | ----      | ----                     | -----------
-| `0` | `Integer` | Player Id                | The player's id.
-| `1` | `Boolean` | Is In Administrator Mode | Value indicating whether the player is now in administrator mode.
 
 ### <a id="rm-allowSpectating">"allowSpectating"</a>
 Occurs when the spectating is allowed setting is changed.
@@ -659,14 +649,6 @@ Occurs when the minimap's visibility is changed.
 | Id  | Type      | Name            | Description
 | --- | ----      | ----            | -----------
 | `0` | `Boolean` | Minimap Enabled | Value indicating whether the minimap is now enabled.
-
-### <a id="rm-mod">"mod"</a>
-Occurs when a player toggles moderator mode.
-
-| Id  | Type      | Name                 | Description
-| --- | ----      | ----                 | -----------
-| `0` | `Integer` | Player Id            | The player's id.
-| `1` | `Boolean` | Is In Moderator Mode | Value indicating whether the player is now in moderator mode.
 
 ### <a id="rm-muted">"muted"</a>
 Occurs when you muted or un-muted a player.
