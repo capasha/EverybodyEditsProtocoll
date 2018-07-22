@@ -419,6 +419,7 @@ Occurs when a player gains or loses an effect.
 | `2` | `Boolean` | Enabled   | Required  | Value indicating whether the effect is enabled.
 | `3` | `Double`  | Argument  | Optional  | The optional argument of the effect (time left, number of jumps, etc.)
 | `4` | `Integer` | Duration  | Optional  | The duration of the effect.
+| `5` | `Integer` | Unknown   | Optional  | Unknown
 
 ### <a id="rm-effectlimits">"effectlimits"</a>
 Occurs when effect limits are changed.
