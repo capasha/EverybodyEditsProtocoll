@@ -876,7 +876,8 @@ Occurs when a world portal is placed in the world.
 | `1` | `UInt`   | Y         | The y coordinate of the block's position.
 | `2` | `UInt`   | Block Id  | The block id.
 | `3` | `String` | Target    | The target of the world portal.
-| `4` | `UInt`   | Player Id | The id of the player which placed this block.
+| `4` | `UInt`   | Target Spawn Point | The spawn point to the world.
+| `5` | `UInt`   | Player Id | The id of the player which placed this block.
 
 ### <a id="rm-write">"write"</a>
 Occurs when a non-player message is received (system messages, etc.)
