@@ -1415,3 +1415,5 @@ Sent to un-like the world.
 | ![cow](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcCow.png)   | `Cow` | `1558`
 | ![frog](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcFrog.png)   | `Frog` | `1559`
 | ![bruce](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcBruce.png)   | `Bruce` | `1570`
+| ![starfish](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcStarfish.png)   | `Starfish` | `1569`
+| ![computer](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcComputer.png)   | `Computer` | `1571`
