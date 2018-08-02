@@ -11,5 +11,9 @@ A list of current EE BigDB databases
 
 | Name      | Description
 | --- | -----------
-| `Config` | Config to read server version or admins.
-| `Worlds` | Worlds read saved worlds and all their information.  
+| `Config` | To read server version or admins.
+| `News` | News for EE.
+| `Payvaultitems` | Player's Payvault items.
+| `PlayerObjects` | Player's Objects.
+| `Usernames` | Player's usernames.
+| `Worlds` | Player's saved worlds and all their information.  
