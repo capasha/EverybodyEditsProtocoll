@@ -3,7 +3,8 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
 
 ## Table of contents
 - [BigDB Databases](#BigDB-Databases)
-
+ - [Config](#config)
+ - [Worlds](#worlds)
 
 ### <a id="BigDB-Database">BigDB Databases</a>
 A list of current EE BigDB databases
