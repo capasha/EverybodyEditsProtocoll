@@ -5,8 +5,10 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
 - [BigDB Databases](#BigDB-Databases)
 
 
+### <a id="BigDB-Database">BigDB Databases</a>
+A list of current EE BigDB databases
 
-# <a id="BigDB-Databases">BigDB Databases</a>  
-| ----- | ---- |  
-| config | Contains configuration information |  
-| Worlds | Contains saved worlds information |  
+| Name      | Description
+| --- | -----------
+| `Config` | Config to read server version or admins.
+| `Worlds` | Worlds read saved worlds and all their information.  
