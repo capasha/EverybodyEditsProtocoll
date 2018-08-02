@@ -6,7 +6,7 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
 
 
 
-# <a id="BigDB-Databases">BigDB Databases</a>
-| ----- | ---- |
-| `config` | `Contains configuration information` |
-| `Worlds` | `Contains saved worlds information` |
+# <a id="BigDB-Databases">BigDB Databases</a>  
+| ----- | ---- |  
+| config | Contains configuration information |  
+| Worlds | Contains saved worlds information |  
