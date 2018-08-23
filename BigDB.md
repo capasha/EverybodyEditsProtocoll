@@ -5,22 +5,28 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
 ## Table of contents
 - [BigDB Databases](#BigDB-Databases)
   - [Config](#config)
+  - [Usernames](#usernames)
   - [Worlds](#worlds)
 
 ### <a id="BigDB-Database">BigDB Databases</a>
 A list of current EE BigDB databases
 
-| Name      | Description
-| --- | -----------
-| `Config` | To read server version or admins.
+| Name        | Description
+| ---         | -----------
+| `Config`    | To read server version or admins.
 | `Usernames` | Player's usernames.
-| `Worlds` | Player's saved worlds and all their information.  
+| `Worlds`    | Player's saved worlds and all their information.  
 
 ### <a id="config"> client.BigDB.Load("config","config");
-| Text      | Type | Description
-| --- | ----------- |  ----------- |
-| `version` |  `Integer` | The server version |
-| `betaversion` |  `Integer` | The beta server version |
-| `nextversion` |  `Integer` | The next server version |
-| `scheduled` |  `DateTime` | No idea. |
+| Text          | Type        | Description
+| ---           | ----------- |  -----------            |
+| `version`     |  `Integer` | The server version       |
+| `betaversion` |  `Integer` | The beta server version  |
+| `nextversion` |  `Integer` | The next server version  |
+| `scheduled`   |  `DateTime` | No idea.                |
+  
+### <a id="usernames"> client.BigDB.Load("Usernames","doh");
+| Text          | Type          | Description
+| ---           | -----------   |  -----------             |
+| `owner`       |  `String`     | The players UserID       |
 
