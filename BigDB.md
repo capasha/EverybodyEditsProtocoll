@@ -50,3 +50,16 @@ A list of current EE BigDB databases
 | `coinbanned`    |  `Boolean`    | Not used.                                     |
 | `wootbanned`    |  `Boolean`    | Not used.                                     |
 
+### Worlds Type
+| ID    | World Size
+| ----- | ------------
+| `1`   | 50x50       |
+| `2`   | 100x100       |
+| `3`   | 200x200      |
+| `4`   | 400x50       |
+| `5`   | 400x200       |
+| `6`   | 100x400       |
+| `7`   | 636x50       |
+| `8`   | 110x110      |
+| `11`   | 300x300      |
+| `12`   | 200x150      |
