@@ -43,6 +43,7 @@ A list of current EE BigDB databases
 | `Likes`         |  `Integer`    | How many likes the world have.                |
 | `Favorites`     |  `Integer`    | How many favorites the world have.            |
 | `IsFeatured`    |  `Boolean`    | If the world is in the feature list.          |
+| `worlddata`     |  `Array`      | The blocks in the saved state.                |
 | `allowpotions`  |  `Boolean`    | Not used.                                     |
 | `enablePotions` |  `Boolean`    | Not used.                                     |
 | `woots`         |  `Integer`    | Not used.                                     |
@@ -53,13 +54,36 @@ A list of current EE BigDB databases
 ### Worlds Type
 | ID    | World Size
 | ----- | ------------
-| `1`   | 50x50       |
-| `2`   | 100x100       |
-| `3`   | 200x200      |
-| `4`   | 400x50       |
-| `5`   | 400x200       |
-| `6`   | 100x400       |
-| `7`   | 636x50       |
-| `8`   | 110x110      |
-| `11`   | 300x300      |
-| `12`   | 200x150      |
+| `1`     | 50x50      |
+| `2`     | 100x100    |
+| `3`     | 200x200    |
+| `4`     | 400x50     |
+| `5`     | 400x200    |
+| `6`     | 100x400    |
+| `7`     | 636x50     |
+| `8`     | 110x110    |
+| `11`    | 300x300    |
+| `12`    | 200x150    |
+
+### Worlddata
+| Id        | Type         | Description
+| -----     | ------------ | ------------                                           |
+| `type`      | `UInt`            | The id of the block.                            | 
+| `layer`     | `Integer`         | The layer, bg or fg.                            |
+| `goal`      | `Integer`         | Coin Door/Gate.                                 |
+| `signtype`  | `Integer`         | The sign type.                                  |
+| `rotation`  | `Integer`         | Rotation of the block.                          |
+| `id`        | `Integer`         | Id for sound or portal.                         |
+| `name`      | `String`          | Name of the NPC.                                |
+| `mes1`      | `String`          | Message 1 of the NPC.                           |
+| `mes2`      | `String`          | Message 2 of the NPC.                           |
+| `mes3`      | `String`          | Message 3 of the NPC.                           |
+| `target`    | `Integer & String`| Both string or integer. worldportal or Portal.  |
+| `text`      | `String`          | Text for sign, worldportal or admintext.        |
+| `text_color`| `String`          | Color for Admin text.                           |
+| `x`         | `ByteArray`       | X locations in a ByteArray. (Needs Bitshifting) |
+| `y`         | `ByteArray`       | Y locations in a ByteArray. (Needs Bitshifting) |
+| `x1`        | `ByteArray`       | X1 locations in a ByteArray. (Needs Bitshifting) |
+| `y1`        | `ByteArray`       | Y1 locations in a ByteArray. (Needs Bitshifting) |
+
+<a href="https://pastebin.com/WStXbMux">Example how to read from Worldata</a>
