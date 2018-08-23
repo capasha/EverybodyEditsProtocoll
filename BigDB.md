@@ -16,7 +16,7 @@ A list of current EE BigDB databases
 | `Usernames` | Player's usernames.
 | `Worlds` | Player's saved worlds and all their information.  
 
-### client.BigDB.Load("config","config");
+### <a id="config"> client.BigDB.Load("config","config");
 | Text      | Type | Description
 | --- | ----------- |  ----------- |
 | `version` |  `Integer` | The server version |
