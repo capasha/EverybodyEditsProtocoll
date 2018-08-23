@@ -196,7 +196,7 @@ Occurs when someone joins the world.
 | `15` | `Integer`   | Team               | The player's team id.                                                                     *See [Teams](#model-teams).*
 | `16` | `Integer`   | Aura Shape         | The player's aura shape id.
 | `17` | `Integer`   | Aura Color         | The player's aura color id.
-| `18` | `Integer`   | Chat Color         | The player's chat color.
+| `18` | `Uint`      | Chat Color         | The player's chat color.
 | `29` | `String`    | Badge              | The player's badge id.                                                                    *See [Badges](#model-badges).*
 | `20` | `Boolean`   | Crew Member        | Value indicating whether the player is a member of the crew to which belongs this world.
 | `21` | `ByteArray` | Purple Switches    | Byte array of purple switch states.
