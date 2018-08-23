@@ -8,7 +8,6 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
   - [access](#rm-access)
   - [add](#rm-add)
   - [addedToCrew](#rm-addedToCrew)
-  - [admin](#rm-admin)
   - [allowSpectating](#rm-allowSpectating)
   - [aura](#rm-aura)
   - [autotext](#rm-autotext)
@@ -150,7 +149,7 @@ ___
 # <a id="game-information">Game Information</a>
 ```
 GameID = everybody-edits-su9rn58o40itdbnw69plyw
-Version = 230
+Version = 239
 ```
 
 *NOTE: the game ID is required to log into PlayerIO to send requests.*
@@ -539,8 +538,10 @@ Occurs when the player initially joins the room.
 | `36`    | `Boolean`   | Lobby Preview Enabled      | Value indicating whether the lobby preview is enabled in this world.
 | `37`    | `ByteArray` | Orange Switches            | Byte array with states of orange switches
 | `38`    | `Boolean`   | FriendsOnly                | If the world is set to friends only
-| `39`    | `String`    | Owner Id                   | The id of the owner.
-| `40`    | `String`    | ws                         | Indicates the start of the world data.
+| `39`    | `Boolean`   | Unknown                    | UNknown
+| `40`    | `String`    | Owner Id                   | The id of the owner.
+| `41`    | `Boolean`   | Toggle godmode             | Can toggle godmode.
+| `42`    | `String`    | ws                         | Indicates the start of the world data.
 | `[...]` | `[...]`     | The serialized world data. | Indicates the world data.
 | `[...]` | `String`    | we                         | Indicates the end of the world data.
 
