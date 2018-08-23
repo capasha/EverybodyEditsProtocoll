@@ -29,4 +29,24 @@ A list of current EE BigDB databases
 | Text          | Type          | Description
 | ---           | -----------   |  -----------             |
 | `owner`       |  `String`     | The players UserID       |
+  
+### <a id="worlds"> client.BigDB.Load("Worlds","PW01");
+| Text            | Type          | Description                                   
+| ---             | -----------   |  -----------                                  |
+| `width`         |  `Integer`    | The width of the world.                       |
+| `height`        |  `Integer`    | The height of the world.                      |
+| `type`          |  `Integer`    | If width and height doesn't exist. Use type.  |
+| `name`          |  `String`     | The name of the world.                        |
+| `plays`         |  `Integer`    | How many plays in the world.                  |
+| `owner`         |  `String`     | The UserID of the owner in the world.         |
+| `visible`       |  `Boolean`    | The world is visible in lobby.                |
+| `Likes`         |  `Integer`    | How many likes the world have.                |
+| `Favorites`     |  `Integer`    | How many favorites the world have.            |
+| `IsFeatured`    |  `Boolean`    | If the world is in the feature list.          |
+| `allowpotions`  |  `Boolean`    | Not used.                                     |
+| `enablePotions` |  `Boolean`    | Not used.                                     |
+| `woots`         |  `Integer`    | Not used.                                     |
+| `totalwoots`    |  `Integer`    | Not used.                                     |
+| `coinbanned`    |  `Boolean`    | Not used.                                     |
+| `wootbanned`    |  `Boolean`    | Not used.                                     |
 
