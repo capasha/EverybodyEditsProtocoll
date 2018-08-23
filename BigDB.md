@@ -24,6 +24,16 @@ A list of current EE BigDB databases
 | `betaversion` |  `Integer` | The beta server version  |
 | `nextversion` |  `Integer` | The next server version  |
 | `scheduled`   |  `DateTime` | No idea.                |
+
+### <a id="configstaff"> client.BigDB.Load("config","staff");
+| Text          | Type        | Description
+| ---           | ----------- |  -----------  
+| `Name`        |  `String`   | The role the user have. |
+  
+### <a id="configpatron"> client.BigDB.Load("config","patrons");
+| Text          | Type        | Description
+| ---           | ----------- |  -----------  
+| `Name`        |  `Integer`   | The patron role the user have. |
   
 ### <a id="usernames"> client.BigDB.Load("Usernames","doh");
 | Text          | Type          | Description
