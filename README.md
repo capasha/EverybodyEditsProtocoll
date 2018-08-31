@@ -197,7 +197,7 @@ Occurs when someone joins the world.
 | `16` | `Integer`   | Aura Shape         | The player's aura shape id.
 | `17` | `Integer`   | Aura Color         | The player's aura color id.
 | `18` | `Uint`      | Chat Color         | The player's chat color.
-| `29` | `String`    | Badge              | The player's badge id.                                                                    *See [Badges](#model-badges).*
+| `19` | `String`    | Badge              | The player's badge id.                                                                    *See [Badges](#model-badges).*
 | `20` | `Boolean`   | Crew Member        | Value indicating whether the player is a member of the crew to which belongs this world.
 | `21` | `ByteArray` | Purple Switches    | Byte array of purple switch states.
 | `22` | `Boolean`   | Can Edit           | Value indicating whether the player can edit in this world.
@@ -732,6 +732,7 @@ Occurs when your campaign progress is restored.
 | `12` | `ByteArray` | Switch States    | The byte array describing purple switches states.
 | `13` | `Double`    | Horizontal Speed | The horizontal movement speed.
 | `14` | `Double`    | Vertical Speed   | The vertical movement speed.
+| `15` | `Boolean`   | IsinGodmode      | If the player is in godmode.
 
 ### <a id="rm-roomDescription">"roomDescription"</a>
 Occurs when the world description is changed.
