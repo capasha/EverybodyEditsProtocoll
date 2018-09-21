@@ -45,7 +45,7 @@ A list of current EE BigDB databases
 | ---             | -----------   |  -----------                                  |
 | `width`         |  `Integer`    | The width of the world.                       |
 | `height`        |  `Integer`    | The height of the world.                      |
-| `type`          |  `Integer`    | If width and height doesn't exist. Use type.  |
+| `type`          |  `Integer`    | If width and height doesn't exist. [Use type](#worlds-type).  |
 | `name`          |  `String`     | The name of the world.                        |
 | `plays`         |  `Integer`    | How many plays in the world.                  |
 | `owner`         |  `String`     | The UserID of the owner in the world.         |
@@ -61,7 +61,7 @@ A list of current EE BigDB databases
 | `coinbanned`    |  `Boolean`    | Not used.                                     |
 | `wootbanned`    |  `Boolean`    | Not used.                                     |
 
-### Worlds Type
+### <a id="worlds-type"> Worlds Type
 | ID    | World Size
 | ----- | ------------
 | `1`     | 50x50      |
