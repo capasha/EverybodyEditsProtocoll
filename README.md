@@ -162,7 +162,11 @@ Version = 240
 | Beta        | Beta{version}
 | Lobby       | Lobby{version}
 | Crew Lobby  | CrewLobby{version}
-| Guest Lobby | GuestLobby{version}
+| Lobby Guest | LobbyGuest{version}
+| ?           | TRoom
+| ?           | CampaignManager
+| ?           | AuthRoom
+| ?           | ToolRoom
 
 (Replace {version} with the current version)
 
