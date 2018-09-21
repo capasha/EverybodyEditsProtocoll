@@ -168,7 +168,8 @@ Version = 240
 | ?           | AuthRoom
 | ?           | ToolRoom
 
-(Replace {version} with the current version)
+(Replace {version} with the current version)  
+Or use client.BigDB.Load("config","config")["version"] to get latest version.
 
 # <a id="receive-messages">Receive messages</a>
 
