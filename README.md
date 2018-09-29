@@ -26,6 +26,7 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
   - [completedLevel](#rm-completedLevel)
   - [crewAddRequest](#rm-crewAddRequest)
   - [crewAddRequestFailed](#rm-crewAddRequestFailed)
+  - [dontPanic](#rm-dontPanic)
   - [editRights](#rm-editRights)
   - [effect](#rm-effect)
   - [effectlimits](#rm-effectlimits)
@@ -149,7 +150,7 @@ ___
 # <a id="game-information">Game Information</a>
 ```
 GameID = everybody-edits-su9rn58o40itdbnw69plyw
-Version = 240
+Version = 241
 ```
 
 *NOTE: the game ID is required to log into PlayerIO to send requests.*
@@ -403,6 +404,9 @@ Occurs when an attempt to request adding of the world to a crew didn't succeed.
 | --- | ----     | ----   | -----------
 | `0` | `String` | Reason | The reason of the failure.
 
+### <a id="rm-dontPanic">"dontPanic"</a>
+Will play a sound when touching something, I don't remember.
+
 ### <a id="rm-editRights">"editRights"</a>
 Occurs when a player receives or loses edit rights.
 
@@ -486,18 +490,23 @@ Occurs when the server sends information saying that:
 - the room is full
 - and/or, the rate limit was exceeded
 
-| Id  | Type     | Name  | Description
-| --- | ----     | ----  | -----------
-| `0` | `String` | Title | The title of the message.
-| `1` | `String` | Text  | The text of the message.
+| Id  | Type     | Name           | Description
+| --- | ----     | ----           | -----------
+| `0` | `String` | Title          | The Title of the message.
+| `1` | `String` | Text           | The Text of the message.
+| `2` | `Boolean`| Modal          | ?.
+| `3` | `String` | Image          | The Image for the message. Or null.
+| `4` | `String` | Sound          | The Sound for the message. Or null.
+
 
 ### <a id="rm-info2">"info2"</a>
 Occurs when the server sends low priority information that can be displayed in an non-invasive pop-up.
 
-| Id  | Type     | Name  | Description
-| --- | ----     | ----  | -----------
-| `0` | `String` | Title | The title of the message.
-| `1` | `String` | Text  | The text of the message.
+| Id  | Type     | Name   | Description
+| --- | ----     | ----   | -----------
+| `0` | `String` | Title  | The title for the message.
+| `1` | `String` | Text   | The text for the message.
+| `2` | `String` | Sound  | The sound for the message. Or null.
 
 ### <a id="rm-init">"init"</a>
 Occurs when the player initially joins the room.
@@ -648,7 +657,8 @@ Occurs when a player moves.
 | `10`| `Boolean` | Space Just Pressed   | Value indicating whether the player has just pressed down space-bar.
 
 ### <a id="rm-magic">"magic"</a>
-Occurs when you are given a magic reward.
+Occurs when you are given a magic reward.  
+Will also play a sound.
 
 ### <a id="rm-minimapEnabled">"minimapEnabled"</a>
 Occurs when the minimap's visibility is changed.
