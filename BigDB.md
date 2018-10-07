@@ -5,17 +5,19 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
 ## Table of contents
 - [BigDB Databases](#BigDB-Databases)
   - [Config](#config)
+  - [loadMyPlayerObject](#loadMyPlayerObject)
   - [Usernames](#usernames)
   - [Worlds](#worlds)
 
 ### <a id="BigDB-Database">BigDB Databases</a>
 A list of current EE BigDB databases
 
-| Name        | Description
-| ---         | -----------
-| `Config`    | To read server version or admins.
-| `Usernames` | Player's usernames.
-| `Worlds`    | Player's saved worlds and all their information.  
+| Name                  | Description
+| ---                   | -----------
+| `Config`              | To read server version or admins.
+| `loadMyPlayerObject`  | Your information.
+| `Usernames`           | Player's usernames.
+| `Worlds`              | Player's saved worlds and all their information.  
 
 ### <a id="config"> client.BigDB.Load("config","config");
 | Text          | Type        | Description
@@ -24,6 +26,11 @@ A list of current EE BigDB databases
 | `betaversion` |  `Integer` | The beta server version  |
 | `nextversion` |  `Integer` | The next server version  |
 | `scheduled`   |  `DateTime` | No idea.                |
+  
+### <a id="loadMyPlayerObject"> client.BigDB.loadMyPlayerObject();
+| Text            | Type          | Description
+| ---             | -----------   |  -----------     |
+| `Coming Soon`   | `Coming Soon` | Coming Soon      |
 
 ### <a id="configstaff"> client.BigDB.Load("config","staff");
 | Text          | Type        | Description
@@ -61,19 +68,6 @@ A list of current EE BigDB databases
 | `coinbanned`    |  `Boolean`    | Not used.                                     |
 | `wootbanned`    |  `Boolean`    | Not used.                                     |
 
-### <a id="worlds-type"> Worlds Type
-| ID    | World Size
-| ----- | ------------
-| `1`     | 50x50      |
-| `2`     | 100x100    |
-| `3`     | 200x200    |
-| `4`     | 400x50     |
-| `5`     | 400x200    |
-| `6`     | 100x400    |
-| `7`     | 636x50     |
-| `8`     | 110x110    |
-| `11`    | 300x300    |
-| `12`    | 200x150    |
 
 ### Worlddata
 | Id        | Type         | Description
@@ -97,3 +91,18 @@ A list of current EE BigDB databases
 | `y1`        | `ByteArray`       | Y1 locations in a ByteArray. (Needs Bitshifting) |
 
 <a href="https://pastebin.com/WStXbMux">Example how to read from Worldata</a>
+
+# Data
+### <a id="worlds-type"> Worlds Type
+| ID    | World Size
+| ----- | ------------
+| `1`     | 50x50      |
+| `2`     | 100x100    |
+| `3`     | 200x200    |
+| `4`     | 400x50     |
+| `5`     | 400x200    |
+| `6`     | 100x400    |
+| `7`     | 636x50     |
+| `8`     | 110x110    |
+| `11`    | 300x300    |
+| `12`    | 200x150    |
