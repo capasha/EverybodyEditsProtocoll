@@ -1,11 +1,11 @@
 # Everybody Edits Messages Protocol for BigDB
 This repository contains documentation on the PlayerIO based [Everybody Edits](http://everybodyedits.com) API.        
-
+To use BigDB you need to login to Everybody Edits. Use this code as example: client.BigDB.
 
 ## Table of contents
 - [BigDB Databases](#BigDB-Databases)
   - [Config](#config)
-  - [loadMyPlayerObject](#loadMyPlayerObject)
+  - [LoadMyPlayerObject](#LoadMyPlayerObject)
   - [Usernames](#usernames)
   - [Worlds](#worlds)
 
@@ -15,11 +15,11 @@ A list of current EE BigDB databases
 | Name                  | Description
 | ---                   | -----------
 | `Config`              | To read server version or admins.
-| `loadMyPlayerObject`  | Your information.
+| `LoadMyPlayerObject`  | Your information.
 | `Usernames`           | Player's usernames.
 | `Worlds`              | Player's saved worlds and all their information.  
 
-### <a id="config"> client.BigDB.Load("config","config");
+### <a id="config"> Load("config","config");
 | Text          | Type        | Description
 | ---           | ----------- |  -----------            |
 | `version`     |  `Integer` | The server version       |
@@ -27,27 +27,50 @@ A list of current EE BigDB databases
 | `nextversion` |  `Integer` | The next server version  |
 | `scheduled`   |  `DateTime` | No idea.                |
   
-### <a id="loadMyPlayerObject"> client.BigDB.loadMyPlayerObject();
-| Text            | Type          | Description
-| ---             | -----------   |  -----------     |
-| `Coming Soon`   | `Coming Soon` | Coming Soon      |
-
-### <a id="configstaff"> client.BigDB.Load("config","staff");
+### <a id="LoadMyPlayerObject"> LoadMyPlayerObject();
+| Text               | Type          | Description
+| ---                | -----------   |  -----------                                      |
+| `maxEnergy`        | `Integer`     | Your max Energy.                                  |
+| `name`             | `String`      | Your nickname in EE.                              |
+| `shopItems`        | `Array`       | Shop Items.                                       |
+| `lastcoin`         | `DateTime`    | When you got your last magic coin.                |
+| `world00x99`       | `String`      | The worlds you have bought.                       |
+| `visible`          | `Boolean`     | If people can see your profile or not.            | 
+| `betaonlyroom`     | `String`      | Your beta world.                                  | 
+| `smiley`           | `Integer`     | Your current used smiley.                         |
+| `myworldnames`     | `Array`       | Your worlds names.                                |
+| `room0`            | `String`      | Your first world with beta.                       |
+| `timezone`         | `Integer`     | Your timezone.                                    |
+| `worldhome`        | `String`      | Your home world.                                  |
+| `termsVersion`     | `Integer`     | This is the terms that you have accepted.         |
+| `aura`             | `Integer`     | Your current selected aura.                       |
+| `auraColor`        | `Integer`     | Your current selected aura color.                 |
+| `likes`            | `Array`       | Your list of worlds that you have liked.          |
+| `badge`            | `String`      | Your current selected badge.                      |
+| `loginStreak`      | `Integer`     | Your current loginstreak.                         |
+| `favorites`        | `Array`       | Your list of worlds that you have favorited.      |
+| `gold_expire`      | `DateTime`    | When your golden member will end.                 |
+| `gold_join`        | `DateTime`    | Your first time you joined as golden member.      |
+| `smileyGoldBorder` | `Boolean`     | If you have activated golden border or not.       |
+| `shopDate`         | `DateTime`    | Last time you bought something through the shop.  |
+| `energyDelay`      | `Integer`     | This is the delay for how fast you get energy.    |
+  
+### <a id="configstaff"> Load("config","staff");
 | Text          | Type        | Description
 | ---           | ----------- |  -----------  
 | `Name`        |  `String`   | The role the user have. |
   
-### <a id="configpatron"> client.BigDB.Load("config","patrons");
+### <a id="configpatron"> Load("config","patrons");
 | Text          | Type        | Description
 | ---           | ----------- |  -----------  
 | `Name`        |  `Integer`   | The patron role the user have. |
   
-### <a id="usernames"> client.BigDB.Load("Usernames","doh");
+### <a id="usernames"> Load("Usernames","doh");
 | Text          | Type          | Description
 | ---           | -----------   |  -----------             |
 | `owner`       |  `String`     | The players UserID       |
   
-### <a id="worlds"> client.BigDB.Load("Worlds","PW01");
+### <a id="worlds"> Load("Worlds","PW01");
 | Text            | Type          | Description                                   
 | ---             | -----------   |  -----------                                  |
 | `width`         |  `Integer`    | The width of the world.                       |
