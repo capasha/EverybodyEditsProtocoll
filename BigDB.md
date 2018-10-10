@@ -26,6 +26,16 @@ A list of current EE BigDB databases
 | `betaversion` |  `Integer` | The beta server version  |
 | `nextversion` |  `Integer` | The next server version  |
 | `scheduled`   |  `DateTime` | No idea.                |
+
+### <a id="configstaff"> Load("config","staff");
+| Text          | Type        | Description
+| ---           | ----------- |  -----------  
+| `Name`        |  `String`   | The role the user have. |
+  
+### <a id="configpatron"> Load("config","patrons");
+| Text          | Type        | Description
+| ---           | ----------- |  -----------  
+| `Name`        |  `Integer`   | The patron role the user have. |
   
 ### <a id="LoadMyPlayerObject"> LoadMyPlayerObject();
 | Text               | Type          | Description
@@ -54,16 +64,6 @@ A list of current EE BigDB databases
 | `smileyGoldBorder` | `Boolean`     | If you have activated golden border or not.       |
 | `shopDate`         | `DateTime`    | Last time you bought something through the shop.  |
 | `energyDelay`      | `Integer`     | This is the delay for how fast you get energy.    |
-  
-### <a id="configstaff"> Load("config","staff");
-| Text          | Type        | Description
-| ---           | ----------- |  -----------  
-| `Name`        |  `String`   | The role the user have. |
-  
-### <a id="configpatron"> Load("config","patrons");
-| Text          | Type        | Description
-| ---           | ----------- |  -----------  
-| `Name`        |  `Integer`   | The patron role the user have. |
   
 ### <a id="usernames"> Load("Usernames","doh");
 | Text          | Type          | Description
