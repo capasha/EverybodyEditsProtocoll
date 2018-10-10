@@ -67,8 +67,9 @@ A list of current EE BigDB databases
   
 ### <a id="usernames"> Load("Usernames","doh");
 | Text          | Type          | Description
-| ---           | -----------   |  -----------             |
-| `owner`       |  `String`     | The players UserID       |
+| ---           | -----------   |  -----------                |
+| `owner`       |  `String`     | The players UserID or none  |
+| `oldowner`    |  `String`     | The players old UserID      |
   
 ### <a id="worlds"> Load("Worlds","PW01");
 | Text            | Type          | Description                                   
