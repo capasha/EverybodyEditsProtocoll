@@ -18,9 +18,8 @@
 | `getProfile`          | None       | Checks if your profile is private or not               |
 
 ### Send Information
-| Command               | Parameters | Description
-| ------                | ---------- | -----------                                            |
-| `createCrew`          | `CrewName` | Create a new crew.                                     |
-| `changeSmiley`        | `SmileyID te a new crew.                                    |
-
-getBlockStatus
+| Command               | Parameters            | Description
+| ------                | ----------            | -----------                                            |
+| `createCrew`          | `CrewName`            | Create a new crew.                                     |
+| `changeSmiley`        | `SmileyID`            | Change your smiley.                                    |
+| `changeAura`          | `AuraID`,`AuraColor`  | Change your aura and aura color                        |
