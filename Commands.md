@@ -1,3 +1,4 @@
+This list is outdated. Will be updated in the future.
 # Table of Contents
 - [Owner only commands](#commands-owner)
   - [/bgcolor](#command-bgcolor)
