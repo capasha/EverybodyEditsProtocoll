@@ -21,6 +21,8 @@
 | `getCampaigns`        | None       | Get all campaigns.                                     |
 | `getMails`            | None       | Get messages from friends.                             |
 | `getNotifications`    | None       | Get notifications from news.                           |
+| `getNews`             | `""`       | Get the news from EE.                                  |
+
 
 
 ### Send Information
@@ -41,3 +43,10 @@
 | `deleteMail`          | `Key`                 | Delete a message from your friend.                     |
 | `blockCrewInvites`    | `CrewID`,`Boolean`    | Block invites from a crew.                             |
 | `dismissNotification` | `CrewID`              | Block notifications from a crew.                       |
+| `useEnergy`           | `EnergyToSpend`,`Object`| Spend x energy on the object.                        |
+| `useAllEnergy`        | `Object`                | Spend all energy on the object.                      |
+| `useGems`             | `GemsToSpend`,`Object`  | Spend gems on the object.                            |
+| `setUsername`         | `Nickname`              | Set your nickname on your new account.               |
+| `changeUsername`      | `Nickname`              | Change your nickname to a new one.                   |
+| `acceptTerms`         | None                    | Accept the EE terms.                                 |
+
