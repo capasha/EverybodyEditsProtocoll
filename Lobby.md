@@ -22,4 +22,6 @@
 | ------                | ----------            | -----------                                            |
 | `createCrew`          | `CrewName`            | Create a new crew.                                     |
 | `changeSmiley`        | `SmileyID`            | Change your smiley.                                    |
-| `changeAura`          | `AuraID`,`AuraColor`  | Change your aura and aura color                        |
+| `changeAura`          | `AuraID`,`AuraColor`  | Change your aura and aura color.                       |
+| `changeBadge`         | `BadgeId`             | Change your badge.                                     |
+| `toggleProfile`       | `Boolean`             | Toggle your profile. Show or Hide.                     |
