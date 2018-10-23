@@ -1,3 +1,5 @@
+This list is outdated. Will be updated in the future.
+
 ## Table of contents
 - [Blocks](#shop-blocks)
 - [Smileys](#shop-smileys)
