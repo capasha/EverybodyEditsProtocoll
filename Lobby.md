@@ -40,4 +40,4 @@
 | `sendMail`            | `Nickname`,`Subject`,`Message`  | Send a message to your friend.               |
 | `deleteMail`          | `Key`                 | Delete a message from your friend.                     |
 | `blockCrewInvites`    | `CrewID`,`Boolean`    | Block invites from a crew.                             |
-
+| `dismissNotification` | `CrewID`              | Block notifications from a crew.                       |
