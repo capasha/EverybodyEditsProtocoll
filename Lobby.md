@@ -32,4 +32,12 @@
 | `changeBadge`         | `BadgeId`             | Change your badge.                                     |
 | `toggleProfile`       | `Boolean`             | Toggle your profile. Show or Hide.                     |
 | `blockAllInvites`     | `Boolean`             | Toggle your friend invitation. On or Off.              |
+| `deleteFriend`        | `Nickname`            | Delete a friend.                                       |
+| `deleteInvite`        | `Nickname`            | Delete invitation from a friend.                       |
+| `createInvite`        | `Nickname`            | Send a friend request to the user.                     |
+| `answerInvite`        | `Nickname`,`Boolean`  | Accept or decline the friend request.                  |
+| `blockUserInvites`    | `Nickname`,`Boolean`  | Block friend requests from the user or not.            |
+| `sendMail`            | `Nickname`,`Subject`,`Message`  | Send a message to your friend.               |
+| `deleteMail`          | `Key`                 | Delete a message from your friend.                     |
+| `blockCrewInvites`    | `CrewID`,`Boolean`    | Block invites from a crew.                             |
 
