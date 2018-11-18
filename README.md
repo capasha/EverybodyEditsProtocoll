@@ -37,6 +37,7 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
   - [god](#rm-god)
   - [hide](#rm-hide)
   - [hideLobby](#rm-hideLobby)
+  - [hotbarSmileys](#rm-hotbarsmileys)
   - [info](#rm-info)
   - [info2](#rm-info2)
   - [init](#rm-init)
@@ -103,6 +104,7 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
   - [god](#sm-god)
   - [godblocktouch](#sm-godblock)
   - [hologramtouch](#sm-hologramtouch)
+  - [hotbarSmileys](#sm-hotbarsmileys)
   - [init](#sm-init)
   - [init2](#sm-init2)
   - [key](#sm-key)
@@ -483,6 +485,23 @@ Occurs when "world hidden in the lobby setting" is changed.
 | Id  | Type      | Name   | Description
 | --- | ----      | ----   | -----------
 | `0` | `Boolean` | Hidden | Value indicating whether the world is hidden from the lobby and profile.
+
+### <a id="rm-hotbarsmileys">"hotbarSmileys"</a>
+Your 10 favorite smileys. Occurs when joining a world.
+
+| Id  | Type      
+| --- | ----      
+| `0` | `Integer`
+| `1` | `Integer` 
+| `2` | `Integer` 
+| `3` | `Integer` 
+| `4` | `Integer` 
+| `5` | `Integer` 
+| `6` | `Integer` 
+| `7` | `Integer` 
+| `8` | `Integer` 
+| `9` | `Integer` 
+| `10` | `Integer` 
 
 ### <a id="rm-info">"info"</a>
 Occurs when the server sends information saying that:
