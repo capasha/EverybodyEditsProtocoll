@@ -1097,6 +1097,13 @@ Sent to change the god mode state.
 | --- | ----      | ----     | -----------
 | `0` | `Boolean` | God Mode | Value indicating whether the god mode should be enabled.
 
+### <a id="sm-hotbarsmileys">"hotbarSmileys"</a>
+Send to set favorite smileys.
+
+| Id  | Type   | Description
+| --- | ----   | -----------
+| `0-10` | `int` | Add a new favorited smiley.
+
 ### <a id="sm-hologramtouch">"hologramtouch"</a>
 Sent to touch a hologram.
 
