@@ -491,17 +491,7 @@ Your 10 favorite smileys. Occurs when joining a world.
 
 | Id  | Type      
 | --- | ----      
-| `0` | `Integer`
-| `1` | `Integer` 
-| `2` | `Integer` 
-| `3` | `Integer` 
-| `4` | `Integer` 
-| `5` | `Integer` 
-| `6` | `Integer` 
-| `7` | `Integer` 
-| `8` | `Integer` 
-| `9` | `Integer` 
-| `10` | `Integer` 
+| `0-10` | `Integer`
 
 ### <a id="rm-info">"info"</a>
 Occurs when the server sends information saying that:
