@@ -84,7 +84,7 @@ A list of current EE BigDB databases
 | `Likes`         |  `Integer`    | How many likes the world have.                |
 | `Favorites`     |  `Integer`    | How many favorites the world have.            |
 | `IsFeatured`    |  `Boolean`    | If the world is in the feature list.          |
-| `worlddata`     |  `Array`      | The blocks in the saved state.                |
+| `worlddata`     |  `Array`      | The blocks in the saved state. [Contains](#WorldData)                |
 | `allowpotions`  |  `Boolean`    | Not used.                                     |
 | `enablePotions` |  `Boolean`    | Not used.                                     |
 | `woots`         |  `Integer`    | Not used.                                     |
@@ -93,7 +93,7 @@ A list of current EE BigDB databases
 | `wootbanned`    |  `Boolean`    | Not used.                                     |
 
 
-### Worlddata
+### <a id="WorldData"> Worlddata
 | Id        | Type         | Description
 | -----     | ------------ | ------------                                           |
 | `type`      | `UInt`            | The id of the block.                            | 
