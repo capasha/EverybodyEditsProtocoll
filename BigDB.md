@@ -130,3 +130,4 @@ A list of current EE BigDB databases
 | `8`     | 110x110    |
 | `11`    | 300x300    |
 | `12`    | 200x150    |
+| `13`    | 150x150    |
