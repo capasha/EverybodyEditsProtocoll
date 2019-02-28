@@ -1410,6 +1410,7 @@ Sent to un-like the world.
 | `8`   | ![FireEffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/fire.png) | fire |
 | `9`   | ![MultiJumpeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/461.png) | Multi Jump |
 | `10`  | ![Gravityeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1517.png) | Gravity Effect |
+| `11`  | ![Poisoneffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1584.png) | Poison Effect |
 
 ### <a id="model-keys">Key names</a>
 | Image | Value
