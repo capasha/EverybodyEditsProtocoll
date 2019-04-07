@@ -960,50 +960,50 @@ Additional arguments:
 
 | Id  | Type      | Name     | Description
 | --- | ----      | ----     | -----------
-| `0` | `Integer` | Sound Id | The sound id.
+| `4` | `Integer` | Sound Id | The sound id.
 
 - For admin label:
 
 | Id  | Type     | Name       | Description
 | --- | ----     | ----       | -----------
-| `0` | `String` | Text       | The text.
-| `1` | `String` | Text Color | The text color.
+| `4` | `String` | Text       | The text.
+| `5` | `String` | Text Color | The text color.
 
 - For blocks with a number value:
 
 | Id  | Type      | Name         | Description
 | --- | ----      | ----         | -----------
-| `0` | `Integer` | Number Value | The number value.
+| `4` | `Integer` | Number Value | The number value.
 
 - For portals:
 
 | Id  | Type      | Name            | Description
 | --- | ----      | ----            | -----------
-| `0` | `Integer` | Portal Rotation | The portal rotation.
-| `1` | `Integer` | Portal Id       | The portal id.
-| `2` | `Integer` | Portal Target   | The portal target id.
+| `4` | `Integer` | Portal Rotation | The portal rotation.
+| `5` | `Integer` | Portal Id       | The portal id.
+| `6` | `Integer` | Portal Target   | The portal target id.
 
 - For world portals:
 
 | Id  | Type     | Name   | Description
 | --- | ----     | ----   | -----------
-| `0` | `String` | Target | The world portal target.
+| `4` | `String` | Target | The world portal target.
 
 - For signs:
 
 | Id  | Type      | Name      | Description
 | --- | ----      | ----      | -----------
-| `0` | `String`  | Text      | The text.
-| `1` | `Integer` | Sign Type | The sign type.
+| `4` | `String`  | Text      | The text.
+| `5` | `Integer` | Sign Type | The sign type.
 
 - For NPC blocks:
 
 | Id  | Type      | Name           | Description
 | --- | ----      | ----           | -----------
-| `0` | `String`  | Name           | The NPC Name
-| `1` | `String`  | First Message  | The first NPC message
-| `2` | `String`  | Second Message | The second NPC message
-| `3` | `String`  | Third Message  | The third NPC message
+| `4` | `String`  | Name           | The NPC Name
+| `5` | `String`  | First Message  | The first NPC message
+| `6` | `String`  | Second Message | The second NPC message
+| `7` | `String`  | Third Message  | The third NPC message
 
 ### <a id="sm-c">"c"</a>
 Sent to collect a coin.
