@@ -1430,4 +1430,4 @@ Sent to un-like the world.
 | ![astronaut](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcastro.png)   | `Astronaut` | `1575`
 | ![santa](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcsanta.png)   | `Santa` | `1576`
 | ![snowman](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcsnowman.png)   | `Snowman` | `1577`
-| ![walrus](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcbear.png)   | `Walrus` | `1578`
+| ![walrus](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcwalrus.png)   | `Walrus` | `1578`
