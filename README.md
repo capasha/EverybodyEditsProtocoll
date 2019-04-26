@@ -967,7 +967,8 @@ Additional arguments:
 | Id  | Type     | Name       | Description
 | --- | ----     | ----       | -----------
 | `4` | `String` | Text       | The text.
-| `5` | `String` | Text Color | The text color.
+| `5` | `String` | Text Color | The text color in Hex.
+| `5` | `Integer`| Wrap       | Wrap the text.
 
 - For blocks with a number value:
 
