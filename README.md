@@ -1215,15 +1215,17 @@ Sent to reset progress.
 | `0` | `UInt` | X    | The x coordinate of the reset block's position.
 | `1` | `UInt` | Y    | The y coordinate of the reset block's position.
 
-### <a id="sm-save">"save"</a>
-Sent to save the world.
-
 ### <a id="sm-say">"say"</a>
 Sent to say a chat message.
 
 | Id  | Type     | Name | Description
 | --- | ----     | ---- | -----------
 | `0` | `String` | Text | The chat message.
+
+> **NOTE:** These can only be sent by the world owner or crew.
+
+### <a id="sm-save">"save"</a>
+Sent to save the world.
 
 ### <a id="sm-setAllowSpectating">"setAllowSpectating"</a>
 Sent to allow or disallow spectating in the world.
