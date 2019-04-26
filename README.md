@@ -1351,34 +1351,6 @@ Sent to un-like the world.
 
 ### <a id="model-badges">Badges</a>
 
-| Image | Abbreviation | Name
-| ----- | ------------ | ----
-| ![adc](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/adc.png)| adc          | Advent Calendar
-| ![adv](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/adv.png)| adv          | Adventure League
-| ![bst](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/bst.png)| bst          | Bittersweet
-| ![clr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/clr.png)| clr          | Colorful
-| ![crm](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/crm.png)| crm          | Christmas
-| ![end](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/end.png)| end          | Endurance
-| ![ffs](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/ffs.png)| ffs          | Fractured Fingers
-| ![grv](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/grv.png)| grv          | Relativity
-| ![hln](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/hln.png)| hln          | Halloween 2
-| ![hlw](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/hlw.png)| hlw          | Halloween
-| ![jny](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/jny.png)| jny          | Journey
-| ![lcd](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/lcd.png)| lcd          | Looks Can Deceive
-| ![nsg](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/nsg.png)| nsg          | Nostalgia
-| ![pp1](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/pp1.png)| pp1          | Puzzle Pack 1
-| ![pp2](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/pp2.png)| pp2          | Puzzle Pack 2
-| ![ppf](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/ppf.png)| ppf          | Frustration
-| ![rns](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/rns.png)| rns          | Ancient Ruins
-| ![smr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/smr.png)| smr          | Summer
-| ![spr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/spr.png)| spr          | Spring
-| ![stm](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/stm.png)| stm          | Story Time
-| ![tnr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/tnr.png)| tnr          | Tunnel Rats
-| ![ttr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/ttr.png)| ttr          | Tutorials
-| ![vg1](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/vg1.png)| vg1          | Video Game 1
-| ![vg2](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/vg2.png)| vg2          | Video Game 2
-| ![wtr](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/wtr.png)| wtr          | Wintery Wonders
-
 
 ### <a id="model-campaign-status">Campaign Status</a>
 
@@ -1406,11 +1378,12 @@ Sent to un-like the world.
 | `3`   | ![Protectioneffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/420.png) | Protection |
 | `4`   | ![Curseeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/421.png) | Curse |
 | `5`   | ![Zombieeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/422.png) | Zombie |
-| `6`   | ![Teameffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/420.png) | Team |
+| `6`   | ![Teameffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/TeamNone.png) | Team |
 | `7`   | ![LowGravityeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/453.png) | Low Gravity |
 | `8`   | ![FireEffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/fire.png) | fire |
 | `9`   | ![MultiJumpeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/461.png) | Multi Jump |
 | `10`  | ![Gravityeffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/1517.png) | Gravity Effect |
+| `11`  | ![Poisoneffect](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/poisoneffect.png) | Poison Effect |
 
 ### <a id="model-keys">Key names</a>
 | Image | Value
