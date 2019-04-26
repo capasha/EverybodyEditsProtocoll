@@ -1424,3 +1424,10 @@ Sent to un-like the world.
 | ![bruce](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcBruce.png)   | `Bruce` | `1570`
 | ![starfish](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcStarfish.png)   | `Starfish` | `1569`
 | ![computer](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcComputer.png)   | `Computer` | `1571`
+| ![skeleton](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcskeleton.png)   | `Skeleton` | `1572`
+| ![zombie](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npczombie.png)   | `Zombie` | `1573`
+| ![ghost](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcghost.png)   | `Ghost` | `1574`
+| ![astronaut](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcastro.png)   | `Astronaut` | `1575`
+| ![santa](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcsanta.png)   | `Santa` | `1576`
+| ![snowman](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcsnowman.png)   | `Snowman` | `1577`
+| ![walrus](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcbear.png)   | `Walrus` | `1578`
