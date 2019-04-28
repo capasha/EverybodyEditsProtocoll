@@ -1215,15 +1215,17 @@ Sent to reset progress.
 | `0` | `UInt` | X    | The x coordinate of the reset block's position.
 | `1` | `UInt` | Y    | The y coordinate of the reset block's position.
 
-### <a id="sm-save">"save"</a>
-Sent to save the world.
-
 ### <a id="sm-say">"say"</a>
 Sent to say a chat message.
 
 | Id  | Type     | Name | Description
 | --- | ----     | ---- | -----------
 | `0` | `String` | Text | The chat message.
+
+> **NOTE:** These can only be sent by the world owner or crew.
+
+### <a id="sm-save">"save"</a>
+Sent to save the world.
 
 ### <a id="sm-setAllowSpectating">"setAllowSpectating"</a>
 Sent to allow or disallow spectating in the world.
@@ -1430,4 +1432,4 @@ Sent to un-like the world.
 | ![astronaut](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcastro.png)   | `Astronaut` | `1575`
 | ![santa](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcsanta.png)   | `Santa` | `1576`
 | ![snowman](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcsnowman.png)   | `Snowman` | `1577`
-| ![walrus](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcbear.png)   | `Walrus` | `1578`
+| ![walrus](https://github.com/capasha/EverybodyEditsProtocoll/blob/master/images/npcwalrus.png)   | `Walrus` | `1578`
