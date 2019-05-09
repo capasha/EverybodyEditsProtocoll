@@ -997,7 +997,7 @@ Additional arguments:
 | Id  | Type     | Name   | Description
 | --- | ----     | ----   | -----------
 | `4` | `String` | Target | The world portal target.
-| `5` | `Integer` | Target ID | The world portal target id.
+| `5` | `Integer` | Spawn ID | The world portal spawn id.
 
 - For signs:
 
