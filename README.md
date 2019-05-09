@@ -71,6 +71,7 @@ This repository contains documentation on the PlayerIO based [Everybody Edits](h
   - [say_old](#rm-say_old)
   - [show](#rm-show)
   - [smileyGoldBorder](#rm-smileyGoldBorder)
+  - [stoprun](#rm-stoprun)
   - [team](#rm-team)
   - [tele](#rm-tele)
   - [teleport](#rm-teleport)
@@ -809,6 +810,13 @@ Occurs when someone enables or disables the gold smiley border.
 | `0` | `Integer` | Player Id          | The player's id.
 | `1` | `Boolean` | Gold Smiley Border | Value indicating whether the player is wearing gold smiley border.
 
+### <a id="rm-stoprun">"stoprun"</a>
+Occurs when someone enter moderator mode or gets god mode. (/givegod player)
+
+| Id  | Type      | Name               | Description
+| --- | ----      | ----               | -----------
+| `0` | `Boolean` | in Trialsmode      | If the world is in trialsmode.
+
 ### <a id="rm-team">"team"</a>
 Occurs when a player changes their team.
 
@@ -968,7 +976,7 @@ Additional arguments:
 | --- | ----     | ----       | -----------
 | `4` | `String` | Text       | The text.
 | `5` | `String` | Text Color | The text color in Hex.
-| `5` | `Integer`| Wrap       | Wrap the text.
+| `6` | `Integer`| Wrap       | Wrap the text.
 
 - For blocks with a number value:
 
@@ -989,6 +997,7 @@ Additional arguments:
 | Id  | Type     | Name   | Description
 | --- | ----     | ----   | -----------
 | `4` | `String` | Target | The world portal target.
+| `5` | `Integer` | Target ID | The world portal target id.
 
 - For signs:
 
