@@ -39,6 +39,7 @@ Protocol Version: 255
   - [hide](#rm-hide)
   - [hideLobby](#rm-hideLobby)
   - [hotbarSmileys](#rm-hotbarsmileys)
+  - [image](#rm-images)
   - [info](#rm-info)
   - [info2](#rm-info2)
   - [init](#rm-init)
@@ -494,6 +495,15 @@ Your 10 favorite smileys. Occurs when joining a world.
 | Id  | Type      
 | --- | ----      
 | `0-10` | `Integer`
+
+### <a id="rm-images">"info"</a>
+Occurs when the world contains images or been added.
+
+| Id  | Type      | Name           | Description
+| --- | ----      | ----           | -----------
+| `0` | `String`  | Name           | The name of the image.
+| `1` | `Integer` | Position X     | The X position where the image should be drawn at.
+| `2` | `Integer` | Position Y     | The Y position where the image should be drawn at.
 
 ### <a id="rm-info">"info"</a>
 Occurs when the server sends information saying that:
