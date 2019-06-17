@@ -8,6 +8,7 @@ To use BigDB you need to login to Everybody Edits. Use this code as example: cli
   - [LoadMyPlayerObject](#LoadMyPlayerObject)
   - [Usernames](#usernames)
   - [Worlds](#worlds)
+  - [PlayerObjects](#playerobjects)
 
 ### <a id="BigDB-Database">BigDB Databases</a>
 A list of current EE BigDB databases
@@ -16,6 +17,7 @@ A list of current EE BigDB databases
 | ---                   | -----------
 | `Config`              | To read server version or admins.
 | `LoadMyPlayerObject`  | Your information.
+| `PlayerObjects`  		| The user information (Need userid).
 | `Usernames`           | Player's usernames.
 | `Worlds`              | Player's saved worlds and all their information.  
 
@@ -64,6 +66,34 @@ A list of current EE BigDB databases
 | `smileyGoldBorder` | `Boolean`     | If you have activated golden border or not.       |
 | `shopDate`         | `DateTime`    | Last time you bought something through the shop.  |
 | `energyDelay`      | `Integer`     | This is the delay for how fast you get energy.    |
+
+### <a id="PlayerObjects"> Load("PlayerObjects","simpleguest");
+| Text               | Type          | Description
+| ---                | -----------   |  -----------                                      |
+| `maxEnergy`        | `Integer`     | The User max Energy.                             |
+| `name`             | `String`      | The User nickname in EE.                              |
+| `shopItems`        | `Array`       | Shop Items.                                       |
+| `lastcoin`         | `DateTime`    | When the User got the last magic coin.                |
+| `world00x99`       | `String`      | The worlds The User have bought.                       |
+| `visible`          | `Boolean`     | If people can see the user profile or not.            | 
+| `betaonlyroom`     | `String`      | The User beta world.                                  | 
+| `smiley`           | `Integer`     | The User current used smiley.                         |
+| `myworldnames`     | `Array`       | The User worlds names.                                |
+| `room0`            | `String`      | The User first world with beta.                       |
+| `timezone`         | `Integer`     | The User timezone.                                    |
+| `worldhome`        | `String`      | The User home world.                                  |
+| `termsVersion`     | `Integer`     | This is the terms that the user have accepted.         |
+| `aura`             | `Integer`     | The User current selected aura.                       |
+| `auraColor`        | `Integer`     | The User current selected aura color.                 |
+| `likes`            | `Array`       | The User list of worlds that you have liked.          |
+| `badge`            | `String`      | The User current selected badge.                      |
+| `loginStreak`      | `Integer`     | The User current loginstreak.                         |
+| `favorites`        | `Array`       | The User list of worlds that you have favorited.      |
+| `gold_expire`      | `DateTime`    | The User golden member will end.                			 |
+| `gold_join`        | `DateTime`    | The User first time that the User joined as golden member.  |
+| `smileyGoldBorder` | `Boolean`     | If the User have activated golden border or not.      	 |
+| `shopDate`         | `DateTime`    | Last time the User bought something through the shop.  |
+| `energyDelay`      | `Integer`     | This is the delay for how fast the User get energy.    |
   
 ### <a id="usernames"> Load("Usernames","doh");
 | Text          | Type          | Description
