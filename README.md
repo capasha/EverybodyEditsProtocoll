@@ -1,6 +1,6 @@
 # Everybody Edits Messages Protocol
 This repository contains documentation on the PlayerIO based [Everybody Edits](http://everybodyedits.com) API.  
-Protocol Version: 255  
+Protocol Version: 256  
 
 ## Table of contents
 - [Game Information](#game-information)
@@ -155,7 +155,7 @@ ___
 # <a id="game-information">Game Information</a>
 ```
 GameID = everybody-edits-su9rn58o40itdbnw69plyw
-Version = 255
+Version = 256
 ```
 
 *NOTE: the game ID is required to log into PlayerIO to send requests.*
