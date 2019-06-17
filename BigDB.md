@@ -6,9 +6,11 @@ To use BigDB you need to login to Everybody Edits. Use this code as example: cli
 - [BigDB Databases](#BigDB-Databases)
   - [Config](#config)
   - [LoadMyPlayerObject](#LoadMyPlayerObject)
+  - [PlayerObjects](#playerobjects)
   - [Usernames](#usernames)
   - [Worlds](#worlds)
-  - [PlayerObjects](#playerobjects)
+  - [onlinestatus](#onlinestatus)
+
 
 ### <a id="BigDB-Database">BigDB Databases</a>
 A list of current EE BigDB databases
@@ -20,6 +22,7 @@ A list of current EE BigDB databases
 | `PlayerObjects`  		| The user information (Need userid).
 | `Usernames`           | Player's usernames.
 | `Worlds`              | Player's saved worlds and all their information.  
+| `onlinestatus`        | Check in which world a player is inside. 
 
 ### <a id="config"> Load("config","config");
 | Text          | Type        | Description
@@ -122,6 +125,16 @@ A list of current EE BigDB databases
 | `coinbanned`    |  `Boolean`    | Not used.                                     |
 | `wootbanned`    |  `Boolean`    | Not used.                                     |
 
+### <a id="onlinestatus"> Load("onlinestatus","simpleguest");
+| Text          | Type        | Description
+| ---           | ----------- |  -----------  
+| `Name`        |  `String`   | Name of the player in onlinestatus. |
+| `currentWorldName`        |  `String`   | The world's name where the player is inside. |
+| `currentWorldId`        |  `String`   | The world's roomid where the player is inside. |
+| `Smiley`        |  `String`   | The smiley the player use. |
+| `hasGoldBorder`        |  `String`   | Check if the player have gold border. |
+| `lastUpdate`        |  `String`   | Last time the player was active. |
+| `stealth`        |  `String`   | Is the user in stealth mode. Also invisible. |
 
 ### <a id="WorldData"> Worlddata
 | Id        | Type         | Description
