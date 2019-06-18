@@ -74,6 +74,7 @@ A list of current EE BigDB databases
 | Text               | Type          | Description
 | ---                | -----------   |  -----------                                      |
 | `maxEnergy`        | `Integer`     | The User max Energy.                             |
+| `Energy`           | `Integer`     | The User current Energy                          |
 | `name`             | `String`      | The User nickname in EE.                              |
 | `shopItems`        | `Array`       | Shop Items.                                       |
 | `lastcoin`         | `DateTime`    | When the User got the last magic coin.                |
