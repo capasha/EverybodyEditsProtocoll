@@ -410,7 +410,8 @@ Occurs when an attempt to request adding of the world to a crew didn't succeed.
 | `0` | `String` | Reason | The reason of the failure.
 
 ### <a id="rm-dontPanic">"dontPanic"</a>
-Will play a sound when touching something, I don't remember.
+Plays a sound clip from "The Hitchhiker's Guide to the Galaxy", logs "* SYSTEM: Don't panic.", and gives the user the Computer NPC.
+Occurs when the player has exactly 42 gold coins, 42 blue coins, and 42 deaths.
 
 ### <a id="rm-editRights">"editRights"</a>
 Occurs when a player receives or loses edit rights.
