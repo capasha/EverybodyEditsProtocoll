@@ -6,7 +6,7 @@ To use BigDB you need to login to Everybody Edits. Use this code as example: cli
 - [BigDB Databases](#BigDB-Databases)
   - [Config](#config)
   - [LoadMyPlayerObject](#LoadMyPlayerObject)
-  - [PlayerObjects](#playerobjects)
+  - [PlayerObjects](#playerobjects) 
   - [Usernames](#usernames)
   - [Worlds](#worlds)
 
@@ -40,7 +40,8 @@ A list of current EE BigDB databases
 | ---           | ----------- |  -----------  
 | `Name`        |  `Integer`   | The patron role the user have. |
   
-### <a id="LoadMyPlayerObject"> LoadMyPlayerObject();
+### <a id="LoadMyPlayerObject"> LoadMyPlayerObject();  
+## This doesn't work anymore.  
 | Text               | Type          | Description
 | ---                | -----------   |  -----------                                      |
 | `maxEnergy`        | `Integer`     | Your max Energy.                                  |
@@ -68,7 +69,8 @@ A list of current EE BigDB databases
 | `shopDate`         | `DateTime`    | Last time you bought something through the shop.  |
 | `energyDelay`      | `Integer`     | This is the delay for how fast you get energy.    |
 
-### <a id="PlayerObjects"> Load("PlayerObjects","simpleguest");
+### <a id="PlayerObjects"> Load("PlayerObjects","simpleguest");  
+## This doesn't work anymore.  
 | Text               | Type          | Description
 | ---                | -----------   |  -----------                                    		  			|
 | `maxEnergy`        | `Integer`     | The User max Energy.                            		 			|
