@@ -1,5 +1,6 @@
 # How to connect to Lobby
-[Connect to Lobby (Pastebin)](https://pastebin.com/A8YGNyum)
+[Connect to Lobby (Pastebin)](https://pastebin.com/A8YGNyum)  
+[Loop through ss and se settings(Pastebin)](https://pastebin.com/iBGW0TUa)  
 
 ## Send messages
 ### Get Information
