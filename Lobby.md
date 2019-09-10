@@ -87,3 +87,45 @@ Occurs when you send getShop in Lobby.
 | `24`  | `String`   | Text Label         | The text label of the item.
 | `25`  | `String`   | Text Label Color   | The color of the text label of the item.
 
+## Get information from getMySimplePlayerObject
+Occurs when you send getMySimplePlayerObject in Lobby. 
+When finished looping through ss and se you would get the count for the start of PlayerObject data.  
+Just increase from the ss and se total count, and you will get the data. I just list the different types from 0 to 30.  
+
+| Id   | Type        | Name               | Description
+| ---  | ---         | ----               | -----------
+| `..` | `String`    | ss     			  | The first message of Settings.
+| `..` | `..`    	 | Data     		  | The different Settings.
+| `..` | `String`    | se     			  | The last message of Settings.
+| `0`  | `String`    | Nickname     	  | The nickname you use.
+| `1`  | `Integer`   | Smiley     	  	  | The smiley that you use.
+| `2`  | `Integer`   | Aura     	  	  | The aura that you use.
+| `3`  | `Integer`   | AuraColor    	  | The aura color that you use.
+| `4`  | `Boolean`   | Chat Banned    	  | If you are chat banned.
+| `5`  | `Boolean`   | Can Chat    	      | If you can chat.
+| `6`  | `Boolean`   | Have Smiley Package| If you have the smiley package.
+| `7`  | `Boolean`   | Is Administrator   | If you is Administrator.
+| `8`  | `Boolean`   | Is Mod   	      | If you is Moderator.
+| `9`  | `Boolean`   | Gold Member    	  | If you is Gold Member.
+| `10` | `Boolean`   | Wears Gold Smiley  | If you use a gold smiley.
+| `11`  | `Number`   | Gold Remain    	  | How long time you can use gold member.
+| `12`  | `Number`   | Gold Time   	  	  | ^ I don't know.
+| `13`  | `Boolean`  | Gold Welcome   	  | Welcome message for gold members I guess.
+| `14`  | `String`   | room0              | Your first nonbeta world, when you was a beta tester.
+| `15`  | `String`   | Beta Only Room     | Your first beta world.
+| `16`  | `String`   | Home World     	  | Your home world.
+| `17`  | `String`   | Size of worlds     | The size of all your worlds. Split it with (char)0x1399.
+| `18`  | `String`   | WorldID of worlds  | The WorldID of all your worlds. Split it with (char)0x1399.
+| `19`  | `String`   | Names of worlds    | The names of all your worlds. Split it with (char)0x1399.
+| `20`  | `Boolean`  | Visible     	      | If your profile is set to be visible or not.
+| `21`  | `Boolean`  | Banned     	      | If you are banned from EE or not.
+| `22`  | `Integer`  | Accepted Terms     | If you have accepted EE rules.
+| `23`  | `String`   | Badge     	  	  | Your badge that you use.
+| `24`  | `Boolean`  | Confirmed Email    | If you have confirmed your email, maybe postman.
+| `25`  | `Integer`  | Max Energy    	  | The max energy you have.
+| `26`  | `Boolean`  | Change Name    	  | If you have changed your name.
+| `27`  | `String`   | WorldIDs from favorites | The worldid of your favorites. Split it with (char)0x1399.
+| `28`  | `String`   | World Name from favorites | The world name of your favorites. Split it with (char)0x1399.
+| `29`  | `Boolean`  | Is Staff    	      | If you belong to the staff.
+| `30`  | `Boolean`  | Universe    	      | If you have joined EEU Beta.
+
