@@ -1,6 +1,6 @@
 # Everybody Edits Messages Protocol
 This repository contains documentation on the PlayerIO based [Everybody Edits](http://everybodyedits.com) API.  
-Protocol Version: 256  
+Protocol Version: 258  
 
 ## Table of contents
 - [Game Information](#game-information)
