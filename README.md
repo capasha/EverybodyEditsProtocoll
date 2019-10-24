@@ -927,7 +927,7 @@ Occurs when a world portal is placed in the world.
 | `5` | `UInt`   | Player Id | The id of the player which placed this block.
 
 ### <a id="rm-write">"write"</a>
-Occurs when a non-player message is received (system messages, etc.)
+Occurs when a non-player message is received (system messages, kicked users)
 
 | Id  | Type     | Name  | Description
 | --- | ----     | ----  | -----------
