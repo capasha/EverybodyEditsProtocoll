@@ -714,7 +714,7 @@ Occurs when a player touches a switch.
 | Id  | Type      | Name        | Description
 | --- | ----      | ----        | -----------
 | `0` | `Integer` | Player Id   | The player's id.
-| `1` | `UInt`    | Switch Type | The type of the switch.
+| `1` | `UInt`    | Switch Type | The type of the switch. Purple is 0 and 1 is orange.
 | `2` | `Integer` | Switch Id   | The switch id.
 | `3` | `Boolean` | Enabled     | Value indicating whether the switch is enabled.
 
