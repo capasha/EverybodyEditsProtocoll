@@ -1216,7 +1216,7 @@ Sent to change the switch state.
 | --- | ----      | ----        | -----------
 | `0` | `UInt`    | X           | The x coordinate of the switch position.
 | `1` | `UInt`    | Y           | The y coordinate of the switch position.
-| `2` | `UInt`    | Switch Type | The type of the switch.
+| `2` | `UInt`    | Switch Type | The type of the switch. 0 = Purple, 1 = orange.
 | `3` | `Integer` | Switch Id   | The switch id.
 | `4` | `Boolean` | Enabled     | Value indicating whether the switch is enabled.
 
