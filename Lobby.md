@@ -24,6 +24,8 @@
 | `getMails`            	| None       | Get messages from friends.                             |
 | `getNotifications`    	| None       | Get notifications from news.                           |
 | `getNews`             	| `""`       | Get the news from EE.                                  |
+| `checkUsername`    		| `Nickname` | Check if the nickname is already registered 			  |
+
 
 
 
