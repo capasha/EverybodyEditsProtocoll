@@ -206,11 +206,11 @@ Occurs when someone joins the world.
 | `12` | `Boolean`   | Is Friend          | Value indicating whether the player is a friend.
 | `13` | `Boolean`   | Gold Membership    | Value indicating whether the player has gold membership.
 | `14` | `Boolean`   | Gold Smiley Border | Value indicating whether the player is wearing gold smiley border.
-| `15` | `Integer`   | Team               | The player's team id.                                                                     *See [Teams](#model-teams).*
+| `15` | `Integer`   | Team               | The player's team id.  *See [Teams](#model-teams).*
 | `16` | `Integer`   | Aura Shape         | The player's aura shape id.
 | `17` | `Integer`   | Aura Color         | The player's aura color id.
 | `18` | `Uint`      | Chat Color         | The player's chat color.
-| `19` | `String`    | Badge              | The player's badge id.                                                                    *See [Badges](#model-badges).*
+| `19` | `String`    | Badge              | The player's badge id. *See [Badges](#model-badges).*
 | `20` | `Boolean`   | Crew Member        | Value indicating whether the player is a member of the crew to which belongs this world.
 | `21` | `ByteArray` | Purple Switches    | Byte array of purple switch states.
 | `22` | `Boolean`   | Can Edit           | Value indicating whether the player can edit in this world.
@@ -280,7 +280,7 @@ Occurs when a player changes their badge.
 Occurs when trying to join a world with a banned account.
 
 ### <a id="rm-bc">"bc"</a>
-Occurs when a block with a number value is placed in the world.
+Occurs when a block with a number value is placed in the world or effect.
 
 | Id  | Type   | Name         | Description
 | --- | ----   | ----         | -----------
@@ -289,6 +289,8 @@ Occurs when a block with a number value is placed in the world.
 | `2` | `UInt` | Block Id     | The block's id.
 | `3` | `UInt` | Number Value | The number value.
 | `4` | `UInt` | Player Id    | The id of the player which placed this block.
+
+
 
 ### <a id="rm-bn">"bn"</a>
 Occurs when placing a NPC in the world.
