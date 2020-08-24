@@ -173,7 +173,7 @@ Please report new changes to me with [this protocol tool](https://github.com/cap
 | Lobby Guest | LobbyGuest{version}
 | ?           | TRoom
 | ?           | CampaignManager
-| ?           | AuthRoom
+| Linked      | AuthRoom
 | ?           | ToolRoom
 
 (Replace {version} with the current version)  
