@@ -40,8 +40,7 @@ A list of current EE BigDB databases
 | ---           | ----------- |  -----------  
 | `Name`        |  `Integer`   | The patron role the user have. |
   
-### <a id="LoadMyPlayerObject"> LoadMyPlayerObject();  
-## This doesn't work anymore.  
+### <a id="LoadMyPlayerObject"> LoadMyPlayerObject();    
 | Text               | Type          | Description
 | ---                | -----------   |  -----------                                      |
 | `maxEnergy`        | `Integer`     | Your max Energy.                                  |
@@ -70,7 +69,6 @@ A list of current EE BigDB databases
 | `energyDelay`      | `Integer`     | This is the delay for how fast you get energy.    |
 
 ### <a id="PlayerObjects"> Load("PlayerObjects","simpleguest");  
-## This doesn't work anymore.  
 | Text               | Type          | Description
 | ---                | -----------   |  -----------                                    		  			|
 | `maxEnergy`        | `Integer`     | The User max Energy.                            		 			|
