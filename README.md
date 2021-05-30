@@ -1,5 +1,6 @@
 # Everybody Edits Messages Protocol
-This repository contains documentation on the PlayerIO based [Everybody Edits](http://everybodyedits.com) API.  
+This repository contains documentation on the PlayerIO based Everybody Edits API.  
+Everybody Edits is no longer updated because it use Flash and is discontinued. But these documentions will not be deleted.    
 Protocol Version: 258  
 
 ## Table of contents
